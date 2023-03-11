@@ -31,3 +31,8 @@ pip install argparse
 For face detection, we have a .pb file- this is a protobuf file (protocol buffer); it holds the graph definition and the trained weights of the model. We can use this to run the trained model. And while a .pb file holds the protobuf in binary format, one with the .pbtxt extension holds it in text format. These are TensorFlow files. For age and gender, the .prototxt files describe the network configuration and the .caffemodel file defines the internal states of the parameters of the layers.
 
 ## Working:
+![module 4](https://user-images.githubusercontent.com/84222697/224467378-e87c35c7-eded-49e2-9ba3-9e62e791c9d8.png)
+
+# CONCLUSIONS:
+We  describe  a  real-time  age  and  gender  estimation  system  with  an  Machine Learning classifier  for  facial images.  The  age  and  gender  estimation  system  consists  of  face  detection,  pose  estimation,  face tracking  and  facial  feature  extraction  modules.  To  estimate  age  and  gender,  the  extracted  facial features  are  used  to train  the Machine Learning classifier;  people  counting  and  stay time  measurement  are completed using duplicate face detection with the face tracking method. In a real-time test, estimation rates of 92.65% CCR for gender and 72.53% CCR for age are achieved. These results show promising performance and higher estimation rates than those of an earlier age and gender estimation approach.
+### Thank You For Reading My Project.
