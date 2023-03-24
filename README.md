@@ -29,7 +29,8 @@ pip install argparse
 + detect.py
 
 For face detection, we have a .pb file- this is a protobuf file (protocol buffer); it holds the graph definition and the trained weights of the model. We can use this to run the trained model. And while a .pb file holds the protobuf in binary format, one with the .pbtxt extension holds it in text format. These are TensorFlow files. For age and gender, the .prototxt files describe the network configuration and the .caffemodel file defines the internal states of the parameters of the layers.
-
+## Code Implementation.
+Code implementation in Kaggle.[REAL-TIME-AGE-GENDER-PREDICTION-AND-CLASSIFICATION-USING-MACHINE-LEARNING] (https://www.kaggle.com/code/sahkumarshyam/gender-and-age-prediction)
 ## Working:
 ![module 4](https://user-images.githubusercontent.com/84222697/224467378-e87c35c7-eded-49e2-9ba3-9e62e791c9d8.png)
 
