@@ -32,7 +32,13 @@ For face detection, we have a .pb file- this is a protobuf file (protocol buffer
 ## Code Implementation.
 Code implementation in Kaggle.[REAL-TIME-AGE-GENDER-PREDICTION-AND-CLASSIFICATION-USING-MACHINE-LEARNING] (https://www.kaggle.com/code/sahkumarshyam/gender-and-age-prediction)
 ## Working:
-![module 4](https://user-images.githubusercontent.com/84222697/224467378-e87c35c7-eded-49e2-9ba3-9e62e791c9d8.png)
+#### INPUT:-
+
+<img src="https://user-images.githubusercontent.com/84222697/230326843-7e083992-3c05-48d6-b4d6-a2da8a20da9a.png" width="700" height="200">
+
+#### OUTPUT :-
+
+<img src="https://user-images.githubusercontent.com/84222697/224467378-e87c35c7-eded-49e2-9ba3-9e62e791c9d8.png" width="700" height="200">
 
 # CONCLUSIONS:
 We  describe  a  real-time  age  and  gender  estimation  system  with  an  Machine Learning classifier  for  facial images.  The  age  and  gender  estimation  system  consists  of  face  detection,  pose  estimation,  face tracking  and  facial  feature  extraction  modules.  To  estimate  age  and  gender,  the  extracted  facial features  are  used  to train  the Machine Learning classifier;  people  counting  and  stay time  measurement  are completed using duplicate face detection with the face tracking method. In a real-time test, estimation rates of 92.65% CCR for gender and 72.53% CCR for age are achieved. These results show promising performance and higher estimation rates than those of an earlier age and gender estimation approach.
