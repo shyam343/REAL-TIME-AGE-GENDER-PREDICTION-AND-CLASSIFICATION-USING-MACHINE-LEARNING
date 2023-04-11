@@ -8,6 +8,26 @@ This is a Machine Learning-based Project that uses computer vision techniques to
 ## DataSet:-
 For This Machine Learning Project I had used the Adience dataset; The dataset is available in the public domain and you can find it [UTKFace](https://www.kaggle.com/datasets/jangedoo/utkface-new) . UTKFace dataset is a large-scale face dataset with long age span (range from 0 to 116 years old). The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity. The images cover large variation in pose, facial expression, illumination, occlusion, resolution, etc. This dataset could be used on a variety of tasks, e.g., face detection, age estimation, age progression/regression, landmark localization, etc.
 
+## Module Description
+#### 1. Data Collection and Preprocessing :-
+The collected data(i.e. Image or Video) is preprocessed to remove any noise and
+standardize the size of In this module, data is collected in the form of images or
+videos containing faces. The images or videos are collected from various sources
+and are labeled with the corresponding age and gender of the person in the images.
+This is done to ensure that the images are consistent and suitable for training the
+machine learning model.
+
+#### 2. Feature Extraction :-
+In this step,here pre-trained convolutional neural networks (CNNs) i.e. ResNet or
+VGG to extract high-level features from images. These features are used to represent
+the visual information in images in a way that can be used for prediction.
+
+#### 3. Model Training and Evaluation :-
+In This Project here used HDF5 dataset that has more than 1000 pictures of male and female actors
+age from 0 to 100 , we used a Convolution Neural Network (CNN) with ResNet50
+architecture to predict age and gender. We evaluate the performance of our model on
+the validation set and fine-tune the hyperparameters to improve the performance.
+
 ## Additional Python Libraries Required :
 + OpenCV
 ```ruby
