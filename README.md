@@ -23,7 +23,7 @@ VGG to extract high-level features from images. These features are used to repre
 the visual information in images in a way that can be used for prediction.
 
 #### 3. Model Training and Evaluation :-
-In This Project here used HDF5 dataset that has more than 1000 pictures of male and female actors
+In This Project here used HDF5 or UTKFace dataset that has more than 1000 pictures of male and female actors
 age from 0 to 100 , we used a Convolution Neural Network (CNN) with ResNet50
 architecture to predict age and gender. We evaluate the performance of our model on
 the validation set and fine-tune the hyperparameters to improve the performance.
