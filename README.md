@@ -1,5 +1,7 @@
 # REAL-TIME-AGE-GENDER-PREDICTION-AND-CLASSIFICATION-USING-MACHINE-LEARNING.
-![fon](https://user-images.githubusercontent.com/84222697/221489885-996b24ac-81ba-47f4-9574-708ccc8da25f.jpg)
+
+![articture](https://user-images.githubusercontent.com/84222697/235092372-11100e97-7b88-44bc-ab26-636144919f55.jpg)
+
 
 ## OBJECTIVE:-
 The objective of real-time age-gender prediction and classification using machine learning is to accurately predict the age and gender of a person in real-time based on visual input (i.e Image or Video).
